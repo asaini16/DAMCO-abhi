@@ -1,0 +1,54 @@
+	1.	System shall allow use to perform search, set search criteria and filter workplaces, and also to sort and navigate by search results.
+
+A. Search -the  system should have a search function that lets users input keywords or sentences to find relevant workplaces.
+  
+B. Search Criteria-Users should be able to specify certain criteria for their search, which may include factors like sort , navigatetype of workplace, etc.
+
+C. Filtering-After performing a search, users should be able to apply filters to narrow down the results. This could be based on various attributes of the workplaces, such as their floor, room no, equipment’s etc.
+
+D. Sorting-The search results should be sortable based on different attributes like date, floor, room no, equipment’s etc.( Test Data - Date {FROM-  09/03/1980  TO - 11/09/1980 } , floor -5 , room no -4 , equipment’s- pc, phone.)
+Negative scenario for date filter: FROM and TO date selected is past date then field it should not allowed the selected date and should be greyed out.
+
+E. Navigation-There should be intuitive navigation controls that let users move through multiple pages of search results, move to a specific page, or change the number of results displayed per page.
+
+The system would ideally be designed with a user-friendly interface, ensuring that the search and filtering processes are efficient for all users.
+
+	2.	System shall allow searching without setting search parameters
+
+Default Search -The system should allow users to perform searches without specifying any parameters. In such cases, it will display a broader set of results, possibly based on popular or recommended workplaces.
+
+  3. System shall allow searching workplaces by provided parameters.
+
+Parameter-based Search-The system should support searches based on specific parameters provided by the user. These parameters could include attributes such as:
+   
+   - date(from and to date)
+   - room no
+   - floor no
+   - equipment’s 
+   -Equipment’s 
+   -Smoking allowed ( yes / no)
+   
+The system should then display results that match the provided parameters, ensuring a tailored search experience for the user.
+
+   4. System shall allow searching only for the date range that is not in the past.
+  
+  Date Range Constraint-The system should ensure that users can only search within a date range that is in the present or future. Past dates should either be disabled, grayed out, or result in an error message if selected, guiding the user to select valid dates. This ensures that search results are relevant and up-to-date.
+
+Negative scenario for date filter: FROM and TO date selected is past date then field it should not allowed the selected date and should be greyed out.
+
+	5.	System shall allow sorting search results by all available fields.
+
+Comprehensive Sorting-The system should allow users to sort search results based on any available field or attribute related to the workplaces. This ensures a flexible user experience, allowing users to quickly prioritize results based on their specific needs or preferences.
+
+	6.	System shall validate provided data before search.
+
+Data Validation-Before executing a search, the system should validate the data provided by the user. If any of the input data is incorrect, inconsistent, or invalid, the system should display an error message and guide the user to correct the input before proceeding. This ensures accuracy and prevents potential issues or irrelevant search results.
+
+	7.	System shall provide search results without delay.                                 Instantaneous Response - The system should be optimized to deliver search results promptly, minimizing any perceivable delay for the user. It's crucial for the user experience that results are presented as quickly as possible after the search is initiated.
+
+	8.	System shall provide flexible navigation between results.                                                    Flexible Navigation-The system should offer intuitive and flexible navigation controls for users to easily move between search results. This could include features like "Next" and "Previous" buttons, a clickable page number list, a jump-to-page option, and a scrollable results pane. This ensures users can efficiently explore all the results without frustration.
+
+	9.	System shall provide user friendly interface.                                                                       User-Friendly Interface -The system should be designed with a user-centric approach, ensuring that the interface is intuitive, easy to understand, and pleasant to use. Elements should be logically organized, with clear labels, consistent design patterns, and straightforward instructions or prompts as needed. The goal is to minimize the learning curve and provide a seamless experience for all users, regardless of their tech proficiency.
+
+ 10. Search result table shall be read only?                                                                                       
+Read-Only Results Table-The search results table should be set to read-only mode. This means that users cannot modify, edit, or accidentally alter the displayed information within the results. The table serves solely for viewing and navigating the search results.

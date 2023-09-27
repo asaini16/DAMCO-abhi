@@ -1,0 +1,25 @@
+                                                        TASK  -2
+
+Task 2 Input: Increment Description
+
+Given the new features and the user stories provided, here's a breakdown to align the features with the user stories:
+
+1. User Registration:
+- User Story: 
+  - As a user, I want to register into the system so that I can view working places I have booked.
+
+2. Booking of the Office Place:
+-  User Stories:
+  - As a user, I want to book available working places for future so that nobody could take the place.
+  - As a user, I want to have the ability to cancel booking so that another user could book it instead.
+
+3. User Roles (User and Office Manager roles):
+- User Stories:
+  - As an office manager, I want to manage working places so that the system provides valid up-to-date information to system users.
+  - As an office manager, I want to create new working places so that users could have the ability to find and book them.
+
+4. Native Mobile Application:
+- User Story:
+  - As a user, I want to use a mobile application for system usage so that I can do it any time.
+
+
